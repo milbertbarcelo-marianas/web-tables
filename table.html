@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Homework 11: HTML Tables</title>
+</head>
+
+<body>
+    <div class="bg">
+    <div class="schedule-container">
+    <table>
+        <caption style="background-color: white;">My Week 1 Schedule</caption>
+        <thead>
+            <tr>
+                <td>My Daily Schedule</td>
+                <th>Days of the Week</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td class="time" style="background-color: #009879; color: #ffffff;">Time</td>
+            <td class="firstspanned" colspan="8" style="text-align: center;">NONE</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879; color: #ffffff;">12:00AM</td>
+            <td class="firstspanned" rowspan="24" style="writing-mode: vertical-rl; text-align: center; font-size: 50px;">NONE</td>
+            <td class="secondspanned" id="sleeping" colspan="7" rowspan="8" style="font-size: 200px;">Sleeping</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">1:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">2:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">3:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">4:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">5:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">6:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">7:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">8:00AM</td>
+            <td class="secondspanned" id="sleeping" colspan="2" rowspan="3" style="font-size: 30px;">Sleeping</td>
+            <td class="secondspanned" colspan="3" rowspan="2" id="working" style="font-size: 40px;">Working</td>
+            <td class="secondspanned" id="sleeping" colspan="2" rowspan="3" style="font-size: 30px;">Sleeping</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">9:00AM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">10:00AM</td>
+            <td id="working">Working</td>
+            <td class="secondspanned" rowspan="2" style="background-color: red;">Class CO210 (10:00AM-11:26AM)</td>
+            <td id="working">Working</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">11:00AM</td>
+            <td class="secondspanned" colspan="2" id="dogs">Walk Dogs</td>
+            <td id="working">Working</td>
+            <td id="working">Working</td>
+            <td class="secondspanned" id="dogs" colspan="2">Walk Dogs</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">12:00PM</td>
+            <td class="secondspanned" colspan="7" rowspan="2" style="background-color: #f2ba49; font-size: 40px;">Lunch</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">1:00PM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">2:00PM</td>
+            <td class="secondspanned" colspan="2" rowspan="5" style="background-color: #903779;">Doing Assignments</td>
+            <td class="secondspanned" colspan="2" rowspan="4" id="working" style="font-size: 60px;">Working</td>
+            <td class="secondspanned" rowspan="2" id="working" style="font-size: 40px;">Working</td>
+            <td class="secondspanned" colspan="2" rowspan="5" id="pokemon" style="background-color: white;">Pokemon go with friends</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">3:00PM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">4:00PM</td>
+            <td class="secondspanned" rowspan="2" style="background-color: red;">Class CS222 (3:30 PM - 5:26 PM)</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">5:00PM</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">6:00PM</td>
+            <td class="secondspanned" colspan="3" rowspan="2" style="background-color: #74a3a3; font-size: 30px;">Quick Nap</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">7:00PM</td>
+            <td class="secondspanned" colspan="2" rowspan="2" id="dinner">Dinner</td>
+            <td class="secondspanned" colspan="2" rowspan="2" id="dinner">Dinner</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">8:00PM</td>
+            <td class="secondspanned" colspan="3" rowspan="2" style="background-color: #fae2b3; font-size: 30px;">Dinner/Finish up some Assignments</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">9:00PM</td>
+            <td class="secondspanned" colspan="2" id="gaming">Gaming</td>
+            <td class="secondspanned" colspan="2" id="gaming">Gaming</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">10:00PM</td>
+            <td class="secondspanned" id="sleeping" colspan="7" rowspan="2" style="font-size: 40px;">Sleeping</td>
+        </tr>
+
+        <tr>
+            <td class="time" style="background-color: #009879;color: #ffffff;">11:00PM</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+
+</html>

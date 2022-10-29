@@ -1,0 +1,82 @@
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.bg::before {
+    content: "";
+    background-image: url(/images/The\ Great\ Wave\ Off\ Kanagawa.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+
+div.schedule-container {
+    padding: 20px;
+    background-color: #003153;
+    border: 10px inset black;
+}
+
+table {
+    border-radius: 30px;
+    width: 100%;
+}
+
+thead {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+
+td.firstspanned {
+    background-color: rgb(255, 231, 211);
+}
+
+td.secondspanned {
+    text-align: center;
+}
+
+td.time {
+    text-align: center;
+}
+#sleeping {
+    background-color: #F0FFFF;
+}
+
+#working {
+    background-color: #00FFFF;
+    text-align: center;
+}
+
+#dogs {
+    background-color: #DAA06D;
+}
+
+#pokemon {
+    background: red;
+    background-image: url(/images/pokeball.jpeg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center bottom;
+}
+#gaming {
+    background-color: peachpuff;
+}
+
+#dinner {
+    background-color: #f5c86e;
+    font-size: 30px;
+}
