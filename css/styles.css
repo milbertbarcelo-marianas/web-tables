@@ -5,6 +5,7 @@ body {
     font-weight: bold;
 }
 
+
 .bg::before {
     content: "";
     background-image: url(/images/The\ Great\ Wave\ Off\ Kanagawa.jpg);
